@@ -10,9 +10,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class FirstTest {
 
 	private static final String PAGE_URL = "http://newtours.demoaut.com";
-	private static final String GECKODRIVER_PATH = "src/main/resources/drivers/geckodriver-v0.22.0-win64/geckodriver.exe";
+	private static final String GECKODRIVER_PATH = "src/main/resources/drivers/windows/geckodriver-v0.22.0-win64/geckodriver.exe";
 
-	private WebDriver driver;
+	private WebDriver driver; 
 
 	@Before
 	public void setUp() {
