@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:InputTestData xmlns:ns2="urn:org:easetech:easytest:1.0">
+ <TestMethod name="registrationsTest">
+  <Description>Different User Registration Tests </Description>
+  <TestRecord id="1">
+   <Description>User 1</Description>
+   <InputData>
+		<Entry key="firstName" value="John"             />
+		<Entry key="lastName" value="Doe"               />
+		<Entry key="phone" value="555555555"            />
+		<Entry key="email" value="mail@ma.ma"           />
+		<Entry key="address1" value="Downing Street"    />
+		<Entry key="address2" value="Some Random Text"  />
+		<Entry key="city" value="New York"                  />
+		<Entry key="state" value="New York"                 />
+		<Entry key="postalCode" value="123456"              />
+		<Entry key="country" value="UKRAINE"                />
+		<Entry key="userName" value="Joseph"                />
+		<Entry key="password" value="Mypass1234"            />
+   </InputData>
+  </TestRecord>
+  <TestRecord id="2">
+   <Description>User 2</Description>
+   <InputData>
+		<Entry key="firstName" value="Jan"             />
+		<Entry key="lastName" value="Nowak"               />
+		<Entry key="phone" value="555555125"            />
+		<Entry key="email" value="bebe@ma.ma"           />
+		<Entry key="address1" value="Black Street"    />
+		<Entry key="address2" value="Some Random Text"  />
+		<Entry key="city" value="New York"                  />
+		<Entry key="state" value="New York"                 />
+		<Entry key="postalCode" value="123456"              />
+		<Entry key="country" value="UKRAINE"                />
+		<Entry key="userName" value="Joseph"                />
+		<Entry key="password" value="Mypass1234"            />
+   </InputData>
+  </TestRecord>
+  <TestRecord id="3">
+   <Description>User 3</Description>
+   <InputData>
+		<Entry key="firstName" value="Alex"             />
+		<Entry key="lastName" value="Jinx"               />
+		<Entry key="phone" value="555555555"            />
+		<Entry key="email" value="mail@ma.ma"           />
+		<Entry key="address1" value="Downing Street"    />
+		<Entry key="address2" value="Some Random Text"  />
+		<Entry key="city" value="New York"                  />
+		<Entry key="state" value="New York"                 />
+		<Entry key="postalCode" value="123456"              />
+		<Entry key="country" value="UKRAINE"                />
+		<Entry key="userName" value="Joseph"                />
+		<Entry key="password" value="Mypass1234"            />
+   </InputData>
+  </TestRecord>
+ </TestMethod>
+</ns2:InputTestData>
